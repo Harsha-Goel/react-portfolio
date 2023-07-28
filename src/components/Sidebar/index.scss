@@ -87,6 +87,11 @@
                 content: "CONTACT";
             }
         }
+        a.project-link{
+            &:after{
+                content:"PROJECTS";
+            }
+        }
         a.active{
             svg{
                 color:#DD58D6;
@@ -103,6 +108,14 @@
         text-align: center;
         margin: 0;
        li{
+        h2{
+            margin-top: 0;
+            //margin-left: 19px;
+            //width: 60px;
+            font-family: 'Pangolin', cursive;
+            justify-content: center;
+            color:rgb(222, 205, 205);
+        }
         a{
             padding: 7px 0;
             display: block;

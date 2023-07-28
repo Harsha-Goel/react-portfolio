@@ -1,4 +1,4 @@
-import "./index.scss"
+//s
 
 const AnimatedLetters =({letterClass, strArray, idx}) =>{
     return(

@@ -28,6 +28,7 @@ const Home = () => {
                 />
                 </h1>
                 <h2>Competitive Programmer / Full Stack Web Developer</h2>
+                
                 <Link to="/contact" className="flat-button">CONTACT ME</Link>
             </div>
             <Logo />

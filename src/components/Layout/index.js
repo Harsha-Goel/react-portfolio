@@ -5,18 +5,9 @@ const Layout = ()=>{
     return <div className="App">
         <Sidebar />
         <div className="page">
-           
-            <Outlet />
-           
+        <Outlet />
         </div>
     </div>
 }
 export default Layout;
 
-{/* <span className="tags top-tags">&lt;body&gt;</span>
-<outlet />
-<span className="tags bottom-tags">
-                &lt;/body&gt;
-                <br />
-                <span className="bottom-tag-html">&lt;/html&gt;</span>
-            </span> */}

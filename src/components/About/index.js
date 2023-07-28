@@ -4,13 +4,9 @@ import "./index.scss"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCss3, faGitAlt, faHtml5, faJsSquare, faNodeJs, faReact } from "@fortawesome/free-brands-svg-icons";
 import Loader from "react-loaders";
+import { Link } from "react-router-dom";
+import { faLink } from "@fortawesome/free-solid-svg-icons";
 const About = () =>{
-    // const [letterClass,setLetterClass] = useState('text-animate')
-    // useEffect(()=>{
-    //     return setTimeout(()=>{
-    //         setLetterClass('text-animate-hover')
-    //     },4000)
-    // },[])
     return (
         <>
         <div className="container about-page">
@@ -36,6 +32,27 @@ const About = () =>{
                     , daughter of a handsome father and a beautiful mother ,dance 
                     feels good and tech-obsessed!!!
                 </p>
+                <h2 className="head">Link to my coding profiles :</h2>
+                {/* <Link to="https://leetcode.com/Harsha088/" class="logocode">Leetcode</Link> */}
+                <a
+                className="logocode"
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://leetcode.com/Harsha088/"
+                >
+                <FontAwesomeIcon icon={faLink} color="white" />
+                   <span> Leetcode</span>
+                </a>
+                <a
+                className="logocod"
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://codeforces.com/profile/harshagoyal868"
+                >
+                    <FontAwesomeIcon icon={faLink} color="white" />
+                    <span> Codeforces</span>
+                </a>
+                {/* <Link to="https://codeforces.com/profile/harshagoyal868" class="logocod"> Codeforces</Link> */}
             </div>
             <div className="stage-cube-cont">
                 <div className='cubespinner'>
