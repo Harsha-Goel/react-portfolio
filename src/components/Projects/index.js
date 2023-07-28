@@ -3,7 +3,7 @@ import "./index.scss"
 import ProjectOne from "../../assets/images/project1.png"
 import ProjectTwo from "../../assets/images/project2.png"
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
-import { faHashtag } from '@fortawesome/free-solid-svg-icons'
+import { faHashtag, faLink } from '@fortawesome/free-solid-svg-icons'
 const Project = () => {
   return (
     <div>
@@ -23,7 +23,25 @@ const Project = () => {
               <span className="spo">Javascript</span>
               <span className="spo">ReactJs</span>
               <span className="spo">Animations</span>
-            
+              <h3>Links:</h3>
+              <a
+                className="spo"
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://github.com/Harsha-Goel/react-portfolio"
+                >
+                <FontAwesomeIcon icon={faLink} color="pink" />
+                   <span> Git Link</span>
+                </a>
+                <a
+                className="spo"
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://react-portfolio-flax-nine.vercel.app/"
+                >
+                <FontAwesomeIcon icon={faLink} color="pink" />
+                   <span> Live Link</span>
+                </a>
           </div>
         </div>
         
@@ -41,6 +59,25 @@ const Project = () => {
             <span className="spo">ReactJs</span>
             <span className="spo">NodeJs</span>
             <span className="spo">Web Sockets</span>
+            <h3>Links :</h3>
+            <a
+                className="spo"
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://github.com/Harsha-Goel/code-editor"
+                >
+                <FontAwesomeIcon icon={faLink} color="pink" />
+                   <span> Git Link</span>
+                </a>
+                <a
+                className="spo"
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://code-editor-liard-two.vercel.app/"
+                >
+                <FontAwesomeIcon icon={faLink} color="pink" />
+                   <span> Live Link</span>
+                </a>
           </div>
         </div>
       </div>
