@@ -64,20 +64,12 @@ const Project = () => {
                 className="spo"
                     target="_blank"
                     rel="noreferrer"
-                    href="https://github.com/Harsha-Goel/code-editor"
+                    href="https://github.com/Harsha-Goel/new-code"
                 >
                 <FontAwesomeIcon icon={faLink} color="pink" />
                    <span> Git Link</span>
                 </a>
-                <a
-                className="spo"
-                    target="_blank"
-                    rel="noreferrer"
-                    href="https://code-editor-liard-two.vercel.app/"
-                >
-                <FontAwesomeIcon icon={faLink} color="pink" />
-                   <span> Live Link</span>
-                </a>
+                
           </div>
         </div>
       </div>
