@@ -1,6 +1,6 @@
 import React from 'react'
 import "./index.scss"
-import ProjectOne from "../../assets/images/project1.png"
+import ProjectOne from "../../assets/images/p1.png"
 import ProjectTwo from "../../assets/images/project2.png"
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
 import { faHashtag, faLink } from '@fortawesome/free-solid-svg-icons'
