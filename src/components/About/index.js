@@ -19,6 +19,10 @@ const About = () =>{
                     />
                 </h1>
                 <p>
+                    I am a 3rd year B.Tech student at The LNM Institute of Information Technoloy , Jaipur.
+                </p>
+
+                <p>
                     I'm very ambitious full stack developer looking for a role in
                     established IT company with the opportunity to work with the latest
                     technologies on challenging and diverse projects.

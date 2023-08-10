@@ -11,7 +11,7 @@ const Contact =()=>{
         emailjs 
             .sendForm(
                 'service_kug2mk4',
-                'template_5pdafla',
+                'template_kwf4wpa',
                 refForm.current,
                 'W8QL1veMLeO1fygy2'
             )
@@ -43,7 +43,7 @@ return (
                     <form ref={refForm} onSubmit={sendEmail}>
                         <ul>
                             <li className="half">
-                                <input type="text" name="name" placeholder="Name" required />
+                                <input type="text" name="from_name" placeholder="Name" required />
                             </li>
                             <li className="half">
                                 <input 
