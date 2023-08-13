@@ -12,12 +12,14 @@ const Home = () => {
     return (
         <div className="container home-page">
             <div className="text-zone">
+            <div className="image-cnt">
             <img
                 className="logoo"
                 // ref={solidLogoRef}
                 src={LogoP}
                 alt="JavaScript,  Developer"
             />
+            </div>
                 <h1>
                 <span className={letterClass}>H</span>
                 <span className={`${letterClass} _12`}>i,</span>
