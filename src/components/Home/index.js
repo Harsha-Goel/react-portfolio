@@ -4,6 +4,7 @@ import "./index.scss"
 import { useState } from "react";
 import AnimatedLetters from "../AnimatedLetters";
 import Logo from "./Logo";
+import LogoP from "../../assets/images/pho.jpg"
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate');
     const nameArray = [' ','H', 'a', 'r', 's', 'h', 'a'];
@@ -11,6 +12,12 @@ const Home = () => {
     return (
         <div className="container home-page">
             <div className="text-zone">
+            <img
+                className="logoo"
+                // ref={solidLogoRef}
+                src={LogoP}
+                alt="JavaScript,  Developer"
+            />
                 <h1>
                 <span className={letterClass}>H</span>
                 <span className={`${letterClass} _12`}>i,</span>
