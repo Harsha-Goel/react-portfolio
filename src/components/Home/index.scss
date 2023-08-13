@@ -73,3 +73,24 @@
         }
     }
 }
+
+@media (max-width: 1256px) {
+    .home-page{
+        .text-zone{
+            position: absolute;
+            top: 60%;
+           // left: 30%;
+            width: 100%;
+        }
+    }
+}
+@media (max-width: 694px){
+    .home-page{
+        .text-zone{
+            position: absolute;
+            top: 40%;
+            width: 80%;
+            left: 20%;
+        }}
+
+}

@@ -1,7 +1,7 @@
 .contact-form{
     width: 100%;
     margin-top: 20px;
-
+    height: 100%;
     ul{
         padding: 0;
         margin: 0;
@@ -95,4 +95,36 @@
     height: 100%;
     position: relative;
 
+}
+.container{
+    position: relative;
+}
+
+@media (max-width:1414px){
+    
+    .container{
+        position: relative;
+        
+    }
+    .contact-page{
+        .text-zone{
+        position: absolute;
+            margin-left: 10%;
+            margin-top: 14%;
+            height: 800px;
+            width: 800px;
+            align-items: center;
+        }
+        p{
+            width: 100%;
+        }
+    }
+    
+    .map-wrap{
+        display: none;
+        width: 0;
+    }
+    .info-map{
+        display: none;
+    }
 }

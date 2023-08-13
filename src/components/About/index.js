@@ -38,6 +38,7 @@ const About = () =>{
                 </p>
                 <h2 className="head">Link to my coding profiles :</h2>
                 {/* <Link to="https://leetcode.com/Harsha088/" class="logocode">Leetcode</Link> */}
+                <div className="chu">
                 <a
                 className="logocode"
                     target="_blank"
@@ -56,6 +57,7 @@ const About = () =>{
                     <FontAwesomeIcon icon={faLink} color="white" />
                     <span> Codeforces</span>
                 </a>
+                </div>
                 {/* <Link to="https://codeforces.com/profile/harshagoyal868" class="logocod"> Codeforces</Link> */}
             </div>
             <div className="stage-cube-cont">

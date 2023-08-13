@@ -8,9 +8,10 @@ const Project = () => {
   return (
     <div>
       <h1 className="head">What I've built :</h1>
-      <div>
+      <div className="project">
         <div className="p1">
             <FontAwesomeIcon className="fo" icon={faHashtag} color="#A69BB6"  />
+            <div className="flex">
             <div>
               <img className="pro" src={ProjectOne} alt="One" />
             </div>
@@ -43,10 +44,12 @@ const Project = () => {
                    <span> Live Link</span>
                 </a>
           </div>
+          </div>
         </div>
         
         <div className="p1">
         <FontAwesomeIcon className="fo" icon={faHashtag} color="#A69BB6"  />
+        <div className="flex">
           <div>
             <img className="pro" src={ProjectTwo} alt="Two" />
           </div>
@@ -70,6 +73,7 @@ const Project = () => {
                    <span> Git Link</span>
                 </a>
                 
+          </div>
           </div>
         </div>
       </div>
