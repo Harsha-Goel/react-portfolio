@@ -83,6 +83,7 @@
             width: 100%;
         }
     }
+    
 }
 @media (max-width: 694px){
     .home-page{
@@ -93,4 +94,19 @@
             left: 20%;
         }}
 
+}
+@media (max-width: 450px){
+    .home-page{
+        h1{
+            margin-left: 20%;
+            font-size: 18px;
+        }
+        h2{
+            font-size: 10px;
+            margin-left: 20%;
+        }
+        .flat-button{
+            margin-left: 20%;
+        }
+    }
 }

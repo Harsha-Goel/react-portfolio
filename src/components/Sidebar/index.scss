@@ -3,16 +3,19 @@
     background : #181818;
     width: 100px;
     height: 100%;
+    // width: 100%;
+    // height: 30px;
     position: absolute;
     top: 0;
     z-index: 3;
     min-height: 500px;
     .logo{
-        display: block;
+         display: block;
+        display: inline;
         padding: 8px 0;
         margin-top: 15px;
         img{
-            display: block;
+             display: block;
             margin: 8px auto;
             width: 50px;
             height: auto;
@@ -39,7 +42,8 @@
         a{
             font-size: 30px;
             color: #4d4d4e;
-            display: block;
+             display: block;
+            // display: inline;
             line-height: 51px;
             height: 51px;
             margin-top: 20px;
@@ -64,7 +68,8 @@
                 letter-spacing: 2px;
                 position: absolute;
                 bottom:0;
-                display: block;
+                 display: block;
+                // display: inline;
                 width: 100%;
                 text-align: center;
                 opacity:0;
@@ -133,3 +138,8 @@
         height: 100%;
     }
 }
+
+.nav{
+    height: 100%;
+     width: 20px;
+ }
