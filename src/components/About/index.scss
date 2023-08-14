@@ -167,6 +167,8 @@ p{
             padding-top: 10%;
         }
     }
+
+
     
         .logocode{
             margin-left: 30%;
@@ -174,6 +176,35 @@ p{
         }
     
 }
+
+@media (max-width:1248px){
+    .about-page{
+        position: relative;
+        padding: 0;
+        .text-zone{
+            position: absolute;
+            top: 65%;
+            left: 25%;
+            width: 60%;
+            font-size: 20px;
+            .head{
+                margin-left: 0;
+                justify-content: center;
+                padding-left: -20px;
+            }
+            
+        }
+        .stage-cube-cont{
+            position: absolute;
+            top: 0;
+            left: 30%;
+            height: 30%;
+            margin-top: 0;
+            padding-top: 10%;
+        }
+    }
+}
+
 @media(max-width:1144px){
     .logocode{
         margin-left: 25%;
@@ -240,4 +271,313 @@ p{
         }
     }
    
+}
+
+
+@media (max-width:530px){
+    .chu{
+        display:flex;
+    }
+    .about-page{
+        position: relative;
+        .text-zone{
+            position: absolute;
+            top: 62%;
+            left: 28%;
+            width: 65%;
+            font-size: 20px;
+            
+        }
+        .stage-cube-cont{
+            position: absolute;
+            
+            left: 35%;
+            padding-top: 10%;
+        }
+        .head{
+            margin-left: 0;
+            justify-content: center;
+            padding-left: -20px;
+        }
+    }
+}
+
+@media (max-width:515px){
+    .chu{
+        display:flex;
+    }
+    
+    .about-page{
+        position: relative;
+        .text-zone{
+            position: absolute;
+            top: 62%;
+            left: 28%;
+            width: 75%;
+            font-size: 20px;
+            .head{
+                font-size: 25px;
+                margin-left:-20px;
+            }
+        }
+        .stage-cube-cont{
+            position: absolute;
+            
+            left: 40%;
+            padding-top: 10%;
+        }
+        
+    }
+    .logocode{
+        margin-left: 2%;
+        
+    }
+    
+}
+
+
+@media (max-width:440px){
+    .chu{
+        display:flex;
+    }
+    
+    .about-page{
+        position: relative;
+        .text-zone{
+            position: absolute;
+            top: 53%;
+            left: 28%;
+            width: 80%;
+            font-size: 20px;
+            .head{
+                font-size: 25px;
+                margin-left: -20px;
+            }
+        }
+        .stage-cube-cont{
+            position: absolute;
+            
+            left: 45%;
+            padding-top: 10%;
+        }
+        .hide{
+            display: none;
+        }
+        
+    }
+    
+}
+
+
+@media (max-width:400px){
+    .chu{
+        display:flex;
+    }
+    
+    .about-page{
+        position: relative;
+        .text-zone{
+            position: absolute;
+            top: 53%;
+            left: 33%;
+            width: 83%;
+            font-size: 20px;
+            .head{
+                font-size: 25px;
+                margin-left: -30px;
+            }
+        }
+        .stage-cube-cont{
+            position: absolute;
+            
+            left: 47%;
+            padding-top: 10%;
+        }
+        .hide{
+            display: none;
+        }
+        
+    }
+    .logocode{
+        margin-left: 0%;
+    }
+    
+}
+
+@media (max-width:370px){
+    .chu{
+        display:flex;
+    }
+    
+    .about-page{
+        position: relative;
+        .text-zone{
+            position: absolute;
+            top: 53%;
+            left: 35%;
+            width: 87%;
+            font-size: 20px;
+            .head{
+                font-size: 25px;
+                margin-left: -33px;
+            }
+        }
+        .stage-cube-cont{
+            position: absolute;
+            
+            left: 54%;
+            padding-top: 15%;
+        }
+        .hide{
+            display: none;
+        }
+        
+    }
+    .logocode{
+        margin-left: -2%;
+    }
+    
+}
+
+
+@media (max-width:350px){
+    .chu{
+        display:flex;
+    }
+    
+    .about-page{
+        position: relative;
+        .text-zone{
+            position: absolute;
+            top: 53%;
+            left: 37%;
+            width: 92%;
+            font-size: 20px;
+            .head{
+                font-size: 25px;
+                margin-left: -37px;
+            }
+        }
+        .stage-cube-cont{
+            position: absolute;
+            
+            left: 54%;
+            padding-top: 15%;
+        }
+        .hide{
+            display: none;
+        }
+        
+    }
+    .logocode{
+        margin-left: -3%;
+    }
+    
+}
+
+
+
+@media (max-width:330px){
+    .chu{
+        display:flex;
+    }
+    
+    .about-page{
+        position: relative;
+        .text-zone{
+            position: absolute;
+            top: 53%;
+            left: 37%;
+            width: 95%;
+            font-size: 20px;
+            .head{
+                font-size: 25px;
+                margin-left: -37px;
+            }
+        }
+        .stage-cube-cont{
+            position: absolute;
+            
+            left: 57%;
+            padding-top: 15%;
+        }
+        .hide{
+            display: none;
+        }
+        
+    }
+    .logocode{
+        margin-left: -3%;
+    }
+    
+}
+
+@media (max-width:320px){
+    .chu{
+        display:flex;
+    }
+    
+    .about-page{
+        position: relative;
+        .text-zone{
+            position: absolute;
+            top: 53%;
+            left: 40%;
+            width: 98.5%;
+            font-size: 20px;
+            .head{
+                font-size: 25px;
+                margin-left: -39px;
+            }
+        }
+        .stage-cube-cont{
+            position: absolute;
+            
+            left: 60%;
+            padding-top: 15%;
+        }
+        .hide{
+            display: none;
+        }
+        
+    }
+    .logocode{
+        margin-left: -5%;
+    }
+    
+}
+
+@media (max-width:303px){
+    .chu{
+        display:flex;
+    }
+    
+    .about-page{
+        position: relative;
+        .text-zone{
+            position: absolute;
+            top: 53%;
+            left: 42%;
+            width: 98%;
+            font-size: 20px;
+            .head{
+                font-size: 25px;
+                margin-left: -40px;
+            }
+        }
+        .stage-cube-cont{
+            position: absolute;
+            
+            left: 70%;
+            padding-top: 17%;
+        }
+        .hide{
+            display: none;
+        }
+        
+    }
+    .logocode{
+        margin-left: -5%;
+    }
+    
 }

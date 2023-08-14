@@ -23,15 +23,15 @@ const About = () =>{
                 </p>
 
                 <p>
-                    I'm very ambitious full stack developer looking for a role in
+                    I'm very ambitious full stack developer who loves to solve DSA problems,and currently looking for a role in
                     established IT company with the opportunity to work with the latest
                     technologies on challenging and diverse projects.
                 </p>
-                <p>
+                <p className="hide">
                     I'm quietly confident,naturally curious, and perpetually working on 
                     improving my chops one design problem at a time.
                 </p>
-                <p>
+                <p className="hide">
                     If I need to define myself in one sentence that would be a family person 
                     , daughter of a handsome father and a beautiful mother ,dance 
                     feels good and tech-obsessed!!!
