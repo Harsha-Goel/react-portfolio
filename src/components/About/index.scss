@@ -559,11 +559,11 @@ p{
                     position: absolute;
                     top: 45%;
                     left: 33%;
-                    width: 60%;
+                    width: 75%;
                     font-size: 20px;
                     .head{
                         font-size: 18px;
-                        margin-left: -38%;
+                        margin-left: -28%;
                     }
                     .hedo{
                          margin-left: -20%;
@@ -617,11 +617,14 @@ p{
             position: absolute;
             top: 45%;
             left: 33%;
-            width: 60%;
+            width: 67%;
             font-size: 20px;
+            p{
+                letter-spacing: 2px;
+            }
             .head{
                 font-size: 20px;
-                margin-left: -30%;
+                margin-left: -25%;
             }
             .hedo{
                  margin-left: -25%;
@@ -635,7 +638,7 @@ p{
             padding-top: 10%;
         }
         .hide{
-            display: none;
+           // display: none;
         }
     }
     
@@ -647,11 +650,11 @@ p{
     .logocode{
         margin-top: -10px;
         width: 150px;
-        margin-left: 15px;
+        margin-left: 15%;
     }
     .logocod{
         width: 150px;
-        margin-left: 15px;
+        margin-left: 15%;
         margin-top: 10px;
     }
 }
@@ -669,12 +672,12 @@ p{
         .text-zone{
             position: absolute;
             top: 45%;
-            left: 33%;
-            width: 60%;
+            left: 38%;
+            width: 75%;
             font-size: 20px;
             .head{
-                font-size: 16px;
-                margin-left: -40%;
+                font-size: 18px;
+                margin-left: -28%;
             }
             .hedo{
                  margin-left: -25%;
@@ -688,7 +691,7 @@ p{
             padding-top: 10%;
         }
         .hide{
-            display: none;
+           // display: none;
         }
     }
     
@@ -945,21 +948,21 @@ p{
 
 @media (max-width: 281px)  and (max-height: 654px) and (min-width: 270px) {
   
-    .chu{   
-        display:flex;
-    }
+    // .chu{   
+    //     display:flex;
+    // }
     
     .about-page{
         position: relative;
         .text-zone{
             position: absolute;
-            top: 45%;
+            top: 60%;
             left: 30%;
-            width: 60%;
+            width: 90%;
             font-size: 20px;
             .head{
                 font-size: 13px;
-                margin-left: -67%;
+                margin-left: -40%;
                 margin-top: -5px;
             }
             .hedo{
@@ -975,13 +978,13 @@ p{
         }
         .stage-cube-cont{
             position: absolute;
-            display: none;
+           // display: none;
             left: 45%;
             padding-top: 10%;
         }
-        .hide{
-           //display: none;
-        }
+       .hide{
+
+       }
        
     }
     
@@ -993,12 +996,12 @@ p{
         margin-top: -25px;
         width: 130px;
         height: 20px;
-        margin-left: 3px;
+        margin-left: 15%;
     }
     .logocod{
         width: 130px;
         height: 20px;
-        margin-left: 3px;
+        margin-left: 15%;
         margin-top: 3%;
     }
 }
