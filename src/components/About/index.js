@@ -11,7 +11,7 @@ const About = () =>{
         <>
         <div className="container about-page">
             <div className="text-zone">
-                <h1>
+                <h1 className="hedo">
                     <AnimatedLetters
                        
                         strArray={['A','b','o','u','t',' ','m','e']}
@@ -23,7 +23,7 @@ const About = () =>{
                 </p>
 
                 <p>
-                    I'm very ambitious full stack developer who loves to solve DSA problems,and currently looking for a role in
+                    I'm very ambitious full stack developer who loves to solve DSA problems,and my skills are HTML, CSS, Javascript, C++, DSA, ReactJS, NodeJs, MySQL, and currently looking for a role in
                     established IT company with the opportunity to work with the latest
                     technologies on challenging and diverse projects.
                 </p>
