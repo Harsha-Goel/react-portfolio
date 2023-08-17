@@ -18,7 +18,7 @@ const About = () =>{
                         idx={15}
                     />
                 </h1>
-                <p>
+                <p className="para">
                     I am a 3rd year B.Tech student at The LNM Institute of Information Technoloy , Jaipur.
                 </p>
 

@@ -134,6 +134,8 @@ p{
 
 @media (max-width: 1312px) and (min-width: 1181px){
     .about-page{
+        overflow-x: hidden;
+        overflow-y: hidden;
         .text-zone{
             .head{
                 font-size: 3vh;
@@ -157,6 +159,8 @@ p{
 }
 @media (max-width: 1180px) and (min-width: 1150px) {
     .about-page{
+        overflow-x: hidden;
+        overflow-y: hidden;
         .text-zone{
             .head{
                 font-size: 3vh;
@@ -179,12 +183,19 @@ p{
     }
 }
 
-@media (max-width: 1150px) and (min-width: 1130px) {
+@media (max-width: 1230px) and (min-width: 1130px) {
     .about-page{
+        overflow-x: hidden;
+        overflow-y: hidden;
         .text-zone{
+            top: 45%;
             .head{
                 font-size: 3vh;
-                margin-left: -1%;;
+                margin-left: -1%;
+                margin-top: 0%;
+            }
+            .hedo{
+                margin-bottom: -2%;
             }
         }
     }
@@ -209,10 +220,11 @@ p{
         display: flex;
         .text-zone{
             width: 40%;
+            top: 43%;
             .head{
                 font-size: 3vh;
                 margin-left: -1%;;
-
+                margin-top: 0%;
             }
         }
     }
@@ -234,21 +246,22 @@ p{
 
 @media (max-width: 1095px) and (min-width: 950px) {
     .about-page{
-        display: flex;
+        overflow-x: hidden;
         overflow-y: hidden;
+        display: flex;
+        // overflow-y: hidden;
         .text-zone{
             width: 40%;
             margin-left: 5%;
-            margin-top: 0;
+            margin-top: -3%;
             height: 100%;
             .head{
                 font-size: 3vh;
                 margin-left: -2%;
-
-
+                margin-top: 0%;
             }
             .hido{
-                display: none;
+                //display: none;
             }
         }
     }
@@ -269,18 +282,25 @@ p{
 
 @media (max-width: 950px) and (min-width: 862px){
     .about-page{
+        overflow-x: hidden;
+        overflow-y: hidden;
         display: flex;
         .text-zone{
             width: 40%;
             margin-left: 5%;
+            top: 43%;
+            .hedo{
+                margin-left: -20%;
+                margin-bottom: -2%;
+            }
             .head{
                 font-size: 3vh;
                 margin-left: -5%;;
-
+                margin-top: 0%;
             }
         }
         .stage-cube-cont{
-            margin-top: 10%;
+            margin-top: 5%;
         }
     }
     .chu{
@@ -301,24 +321,33 @@ p{
 
 @media (max-width: 862px) and (min-width: 682px) {
     .about-page{
+        overflow-x: hidden;
+        overflow-y: hidden;
         // display: flex;
         // flex-direction: column-reverse;
         .text-zone{
             // display: flex;
             width: 70%;
-            margin-top: 20%;
+            margin-top: 14%;
             margin-left: 10%;
             .head{
                 font-size: 3vh;
-                margin-left: 13%;;
-
+                margin-left: 15%;;
+                margin-top: -1%;
+                //margin-bottom: -0%;
             }
-            .hido{
+            .hedo{
+                margin-bottom: 6%;
+            }
+            .hide{
                 display: none;
+            }
+            .para{
+                margin-top: -5%;
             }
         }
         .stage-cube-cont{
-            margin-top: -10%;
+            margin-top: -15%;
             margin-right: 18%;
             height: 50%;
         }
@@ -329,11 +358,12 @@ p{
         .logocode{
             margin-left: 2%;
             width: 300px;
+            margin-top: -5%;
 
         }
         .logocod{
             width: 300px;
-            
+            margin-top: -5%;
         }
     }
 }
@@ -341,24 +371,30 @@ p{
 
 @media (max-width: 682px) and (min-width: 591px) {
     .about-page{
+        overflow-x: hidden;
+        overflow-y: hidden;
         // display: flex;
         // flex-direction: column-reverse;
         .text-zone{
             // display: flex;
             width: 70%;
-            margin-top: 20%;
+            margin-top: 18%;
             margin-left: 10%;
             .head{
                 font-size: 3vh;
                 margin-left: 5%;;
-
+                margin-top: 0%;
             }
-            .hido{
+            .hedo{
+                margin-bottom: 0%;
+                font-size: 5vh;
+            }
+            .hide{
                 display: none;
             }
         }
         .stage-cube-cont{
-            margin-top: -14%;
+            margin-top: -18%;
             margin-right: 18%;
             height: 50%;
         }
@@ -369,30 +405,33 @@ p{
         .logocode{
             margin-left: 2%;
             width: 300px;
-
+            margin-top: -5%;
         }
         .logocod{
             width: 300px;
-            
+            margin-top: -5%;
         }
     }
 }
 @media (max-width: 591px) and (min-width: 530px) {
     .about-page{
+        overflow-x: hidden;
+        overflow-y: hidden;
         // display: flex;
         // flex-direction: column-reverse;
         .text-zone{
             // display: flex;
             width: 70%;
-            margin-top: 22%;
+            margin-top: 21%;
             margin-left: 13%;
             .head{
                 font-size: 3vh;
                 margin-left: 0%;;
-
+                margin-top: 0%;
             }
             .hedo{
-                margin-top: 0;
+                margin-bottom: 0%;
+                font-size: 5vh;
                 margin-left: -10%;
             }
             .hide{
@@ -412,11 +451,12 @@ p{
         .logocode{
             margin-left: 2%;
             width: 300px;
+            margin-top: -5%;
 
         }
         .logocod{
             width: 300px;
-            
+            margin-top: -5%;
         }
     }
 }
@@ -424,24 +464,33 @@ p{
 
 @media (max-width: 530px) and (min-width: 504px){
     .about-page{
+        overflow-x: hidden;
+        overflow-y: hidden;
         // display: flex;
         // flex-direction: column-reverse;
         .text-zone{
             // display: flex;
             width: 70%;
-            margin-top: 27%;
+            margin-top: 25%;
             margin-left: 14%;
+           // top: 100%;
             .head{
                 font-size: 3vh;
                 margin-left: -5%;;
-
+                margin-top: 0%;
+               
+            }
+            .hedo{
+                margin-bottom: -2%;
+                font-size: 5vh;
+                margin-left: -10%;
             }
             .hide{
                 display: none;
             }
         }
         .stage-cube-cont{
-          //  display: none;
+            // display: none;
             margin-top: -14%;
             margin-right: 16%;
             height: 50%;
@@ -453,11 +502,12 @@ p{
         .logocode{
             margin-left: 2%;
             width: 300px;
+            margin-top: -10%;
 
         }
         .logocod{
             width: 300px;
-            
+            margin-top: -10%;
         }
     }
 }
@@ -465,17 +515,24 @@ p{
 
 @media (max-width: 504px) and (min-width: 475px) {
     .about-page{
+        overflow-x: hidden;
+        overflow-y: hidden;
         // display: flex;
         // flex-direction: column-reverse;
         .text-zone{
             // display: flex;
             width: 73%;
-            margin-top: 27%;
-            margin-left: 15%;
+            margin-top: 25%;
+            margin-left: 13%;
             .head{
                 font-size: 3vh;
                 margin-left: -5%;;
-
+                margin-top: -2%;
+            }
+            .hedo{
+                margin-bottom: -2%;
+                font-size: 3vh;
+                margin-left: -10%;
             }
             .hide{
                 display: none;
@@ -483,7 +540,7 @@ p{
         }
         .stage-cube-cont{
           //  display: none;
-            margin-top: -14%;
+            margin-top: -19%;
             margin-right: 16%;
             height: 50%;
         }
@@ -494,11 +551,11 @@ p{
         .logocode{
             margin-left: 2%;
             width: 300px;
-
+            margin-top: -10%;
         }
         .logocod{
             width: 300px;
-            
+            margin-top: -10%;
         }
     }
 }
@@ -506,6 +563,8 @@ p{
 
 @media (max-width: 475px) and (min-width: 455px) {
     .about-page{
+        overflow-x: hidden;
+        overflow-y: hidden;
         // display: flex;
         // flex-direction: column-reverse;
         .text-zone{
@@ -516,7 +575,12 @@ p{
             .head{
                 font-size: 3vh;
                 margin-left: -7%;;
-
+                margin-top: 0%;
+            }
+            .hedo{
+                font-size: 3vh;
+                margin-left: -10%;
+                margin-bottom: 0%;
             }
             .hide{
                 display: none;
@@ -524,7 +588,7 @@ p{
         }
         .stage-cube-cont{
           //  display: none;
-            margin-top: -14%;
+            margin-top: -18%;
             margin-right: 14%;
             height: 50%;
         }
@@ -535,11 +599,12 @@ p{
         .logocode{
             margin-left: 0%;
             width: 300px;
+            margin-top: -8% ;
 
         }
         .logocod{
             width: 300px;
-            
+            margin-top: -8% ;
         }
     }
 }
@@ -549,19 +614,22 @@ p{
     .about-page{
         // display: flex;
         overflow-x: hidden;
+        overflow-y: hidden;
         // flex-direction: column-reverse;
         .text-zone{
             // display: flex;
-            width: 60%;
-            margin-top: -3%;
+            width: 65%;
+            margin-top: -8%;
             margin-left: 18%;
             .head{
                 font-size: 2vh;
                 margin-left: -24%;;
-
+                margin-top: 0%;
             }
             .hedo{
                 margin-left: -14%;
+                margin-bottom: 0%;
+                font-size: 5vh;
             }
             .hide{
               //  display: none;
@@ -580,7 +648,7 @@ p{
         .logocode{
             margin-left: 5%;
             width: 220px;
-
+            margin-top: -12%;
         }
         .logocod{
             margin-left: 5%;
@@ -597,16 +665,18 @@ p{
         // flex-direction: column-reverse;
         .text-zone{
             // display: flex;
-            width: 60%;
-            margin-top: 0%;
-            margin-left: 22%;
+            width: 65%;
+            margin-top: -9%;
+            margin-left: 20%;
             .head{
                 font-size: 2vh;
-                margin-left: -35%;;
-
+                margin-left: -27%;;
+                margin-top: -1%;
             }
             .hedo{
+                font-size: 5vh;
                 margin-left: -12%;
+                margin-bottom: 0%;
             }
             .hido{
                display: none;
@@ -623,12 +693,12 @@ p{
         display: flex;
         flex-direction: column;
         .logocode{
-            margin-left: 0%;
+            margin-left: 4%;
             width: 200px;
-
+            margin-top: -10%;
         }
         .logocod{
-            margin-left: 0%;
+            margin-left: 4%;
             width: 200px;
             
         }
@@ -642,17 +712,20 @@ p{
         // flex-direction: column-reverse;
         .text-zone{
             // display: flex;
-            width: 60%;
-            margin-top: -7%;
-            margin-left: 22%;
+            width: 65%;
+            margin-top: -10%;
+            margin-left: 20%;
             .head{
                 font-size: 2vh;
                 margin-left: -39%;
                 margin-top: -2%;
+               
 
             }
             .hedo{
                 margin-left: -12%;
+                margin-bottom: 0%;
+                font-size: 5vh;
             }
             .hido{
                display: none;
@@ -669,13 +742,13 @@ p{
         display: flex;
         flex-direction: column;
         .logocode{
-            margin-top: 0%;
-            margin-left: 5%;
+            margin-top: -15%;
+            margin-left: 7%;
             width: 150px;
 
         }
         .logocod{
-            margin-left: 5%;
+            margin-left: 7%;
             width: 150px;
             
         }
@@ -689,16 +762,17 @@ p{
         // flex-direction: column-reverse;
         .text-zone{
             // display: flex;
-            width: 60%;
-            margin-top: -15%;
-            margin-left: 25%;
+            width: 63%;
+            margin-top: -10%;
+            margin-left: 23%;
             .head{
-                font-size: 1.7vh;
-                margin-left: -45%;;
-
+                font-size: 2.5vh;
+                margin-left: -40%;;
+                margin-top: 0%;
             }
             .hedo{
-                margin-left: -12%;
+                margin-left: -15%;
+                font-size: 5vh;
             }
             .hide{
                display: none;
@@ -717,7 +791,7 @@ p{
         .logocode{
             margin-left: 5%;
             width: 150px;
-
+            margin-top: -4%;
         }
         .logocod{
             margin-left: 5%;
@@ -736,7 +810,7 @@ p{
         .text-zone{
             // display: flex;
             width: 60%;
-            margin-top: -20%;
+            margin-top: -6%;
             margin-left: 26%;
             .head{
                 font-size: 1.7vh;
@@ -746,6 +820,7 @@ p{
             }
             .hedo{
                 margin-left: -19%;
+                font-size: 4vh;
             }
             .hide{
                display: none;
@@ -786,7 +861,7 @@ p{
             margin-top: -10%;
             margin-left: 26%;
             .head{
-                font-size: 1.6vh;
+                font-size: 1.9vh;
                 margin-left: -56%;;
                 margin-top: 5px;
 
@@ -813,13 +888,13 @@ p{
         display: flex;
         flex-direction: column;
         .logocode{
-            margin-left: 5%;
+            margin-left: 10%;
             width: 120px;
             margin-top: -8px;
 
         }
         .logocod{
-            margin-left: 5%;
+            margin-left: 10%;
             width: 120px;
             
         }
@@ -833,19 +908,20 @@ p{
         // flex-direction: column-reverse;
         .text-zone{
             // display: flex;
-            width: 55%;
-            margin-top: -15%;
-            margin-left: 28%;
+            width: 60%;
+            margin-top: -13%;
+            margin-left: 27%;
             margin-right: -7%;
             .head{
-                font-size: 1.4vh;
-                margin-left: -70%;;
+                font-size: 1.6vh;
+                margin-left: -68%;;
                 margin-top: 5px;
 
             }
             .hedo{
                 margin-left: -19%;
                 font-size: 4vh;
+                margin-bottom: -2%;
             }
             .hide{
                display: none;
@@ -865,13 +941,13 @@ p{
         display: flex;
         flex-direction: column;
         .logocode{
-            margin-left: 2%;
+            margin-left: 4%;
             width: 120px;
-            margin-top: -10px;
+            margin-top: -20%;
 
         }
         .logocod{
-            margin-left: 2%;
+            margin-left: 4%;
             width: 120px;
             
         }
