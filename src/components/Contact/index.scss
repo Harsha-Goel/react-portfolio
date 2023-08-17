@@ -100,31 +100,469 @@
     position: relative;
 }
 
-@media (max-width:1414px){
-    
-    .container{
-        position: relative;
-        
-    }
+@media (max-width: 1396px) and (min-width: 1055px) {
     .contact-page{
-        .text-zone{
-        position: absolute;
-            margin-left: 10%;
-            margin-top: 14%;
-            height: 800px;
-            width: 800px;
-            align-items: center;
+        .info-map{
+           left: 50%;
         }
-        p{
-            width: 100%;
-        }
-    }
-    
-    .map-wrap{
-        display: none;
-        width: 0;
-    }
-    .info-map{
-        display: none;
     }
 }
+
+@media (max-width: 1055px) and (min-width: 945px) {
+    .contact-page{
+        .info-map{
+           left: 55%;
+        }
+        .map-wrap{
+            width: 48%;
+        }
+        .text-zone{
+            width: 40%;
+            margin-left: 1%;
+        }
+    }
+}
+
+@media (max-width: 954px) and (min-width: 806px) {
+    .contact-page{
+        .info-map{
+           left: 55%;
+        }
+        .map-wrap{
+            width: 48%;
+        }
+        .text-zone{
+            width: 37%;
+            margin-left: 3%;
+            .har{
+                margin-left: -10%;
+            }
+        }
+    }
+    .contact-form{
+        .formed{
+            display: flex;
+            flex-direction: column;
+        }
+        ul{
+            li.half{
+                width: 100%;
+                margin-left: 0;
+            }
+            
+        }
+        
+    
+    }
+}
+
+@media (max-width: 806px) and (min-width: 740px) {
+    .contact-page{
+        .info-map{
+           left: 55%;
+        }
+        .map-wrap{
+            width: 48%;
+        }
+        .text-zone{
+            width: 33%;
+            margin-left: 5%;
+            .har{
+                left: 3%;
+             }
+        }
+        
+    }
+    .contact-form{
+        .formed{
+            display: flex;
+            flex-direction: column;
+        }
+        ul{
+            li.half{
+                width: 100%;
+                margin-left: 0%;
+            }
+            
+        }
+        
+    
+    }
+   
+}
+
+@media (max-width: 740px) and (min-width: 694px) {
+    .contact-page{
+        .info-map{
+           left: 55%;
+        }
+        .map-wrap{
+            width: 48%;
+        }
+        .text-zone{
+            width: 35%;
+            margin-left: 5%;
+            .har{
+                left: 1%;
+                font-size: 5vh;
+             }
+        }
+        
+    }
+    .contact-form{
+        .formed{
+            display: flex;
+            flex-direction: column;
+        }
+        ul{
+            li.half{
+                width: 100%;
+                margin-left: 0%;
+            }
+            
+        }
+        
+    
+    }
+   
+}
+
+@media (max-width: 694px) and (min-width: 584px) {
+    .contact-page{
+        overflow-x: hidden;
+        .info-map{
+           left: 55%;
+           display: none;
+        }
+        .map-wrap{
+            width: 48%;
+            display: none;
+        }
+        .text-zone{
+            width: 77%;
+            margin-left: 9%;
+            .har{
+                left: 2%;
+             }
+        }
+        
+    }
+    .contact-form{
+        .formed{
+            display: flex;
+            flex-direction: column;
+        }
+        ul{
+            li.half{
+                width: 100%;
+                margin-left: 0%;
+            }
+            
+        }
+        
+    
+    }
+   
+}
+
+
+@media (max-width: 584px) and (min-width: 530px) {
+    .contact-page{
+        overflow-x: hidden;
+        .info-map{
+           left: 55%;
+           display: none;
+        }
+        .map-wrap{
+            width: 48%;
+            display: none;
+        }
+        .text-zone{
+            width: 78%;
+            margin-left: 10%;
+            .har{
+                left: 2%;
+             }
+        }
+        
+    }
+    .contact-form{
+        .formed{
+            display: flex;
+            flex-direction: column;
+        }
+        ul{
+            li.half{
+                width: 100%;
+                margin-left: 0%;
+            }
+            
+        }
+        
+    
+    }
+   
+}
+
+@media (max-width: 530px) and (min-width: 450px){
+    .contact-page{
+        overflow-x: hidden;
+        .info-map{
+           left: 55%;
+           display: none;
+        }
+        .map-wrap{
+            width: 48%;
+            display: none;
+        }
+        .text-zone{
+            width: 75%;
+            margin-left: 13%;
+            .har{
+                left: 2%;
+             }
+        }
+        
+    }
+    .contact-form{
+        .formed{
+            display: flex;
+            flex-direction: column;
+        }
+        ul{
+            li.half{
+                width: 100%;
+                margin-left: 0%;
+            }
+            
+        }
+        
+    
+    }
+   
+}
+
+@media (max-width: 450px) and (min-width: 423px) {
+    .contact-page{
+        overflow-x: hidden;
+        .info-map{
+           left: 55%;
+           display: none;
+        }
+        .map-wrap{
+            width: 48%;
+            display: none;
+        }
+        .text-zone{
+            width: 72%;
+            margin-left: 15%;
+            .har{
+                left: 2%;
+             }
+        }
+        
+    }
+    .contact-form{
+        .formed{
+            display: flex;
+            flex-direction: column;
+        }
+        ul{
+            li.half{
+                width: 100%;
+                margin-left: 0%;
+            }
+            
+        }
+        
+    
+    }
+   
+}
+
+
+@media (max-width: 423px) and (min-width: 377px) {
+    .contact-page{
+        overflow-x: hidden;
+        .info-map{
+           left: 55%;
+           display: none;
+        }
+        .map-wrap{
+            width: 48%;
+            display: none;
+        }
+        .text-zone{
+            width: 70%;
+            margin-left: 17%;
+            .har{
+                left: 0%;
+             }
+        }
+        
+    }
+    .contact-form{
+        .formed{
+            display: flex;
+            flex-direction: column;
+        }
+        ul{
+            li.half{
+                width: 100%;
+                margin-left: 0%;
+            }
+            
+        }
+        
+    
+    }
+   
+}
+
+
+@media (max-width: 377px) and (min-width: 350px) {
+    .contact-page{
+        overflow-x: hidden;
+        .info-map{
+           left: 55%;
+           display: none;
+        }
+        .map-wrap{
+            width: 48%;
+            display: none;
+        }
+        .text-zone{
+            width: 67%;
+            top: 45%;
+            margin-left: 20%;
+            .har{
+                font-size: 4vh;
+                left: 0%;
+             }
+        }
+        
+    }
+    .contact-form{
+        .formed{
+            display: flex;
+            flex-direction: column;
+        }
+        ul{
+            margin-left: 4%;
+            li{
+                width: 97%;
+               // margin-left: 4%;
+            }
+           
+            li.half{
+                width: 97%;
+                margin-left: 0%;
+            }
+            
+        }
+        
+    
+    }
+   
+}
+@media (max-width: 350px) and (min-width: 318px) {
+    .contact-page{
+        overflow-x: hidden;
+        .info-map{
+           left: 55%;
+           display: none;
+        }
+        .map-wrap{
+            width: 48%;
+            display: none;
+        }
+        .text-zone{
+            width: 67%;
+            top: 45%;
+            margin-left: 20%;
+            .har{
+                font-size: 4vh;
+                left: 0%;
+             }
+             p{
+                margin-left: 5%;
+             }
+        }
+        
+    }
+    .contact-form{
+        .formed{
+            display: flex;
+            flex-direction: column;
+        }
+        ul{
+            margin-left: 7%;
+            li{
+                width: 97%;
+               // margin-left: 4%;
+            }
+           
+            li.half{
+                width: 97%;
+                margin-left: 0%;
+            }
+            
+        }
+        
+    
+    }
+   
+}
+
+
+@media (max-width: 318px) and (min-width: 275px){
+    .contact-page{
+        overflow-x: hidden;
+        .info-map{
+           left: 55%;
+           display: none;
+        }
+        .map-wrap{
+            width: 48%;
+            display: none;
+        }
+        .text-zone{
+            width: 60%;
+            top: 45%;
+            margin-left: 25%;
+            .har{
+                font-size: 4vh;
+                left: 2%;
+             }
+             p{
+                letter-spacing: 0vh;
+                margin-left: 5%;
+             }
+        }
+        
+    }
+    .contact-form{
+        .formed{
+            display: flex;
+            flex-direction: column;
+        }
+        ul{
+            margin-left: 7%;
+            li{
+                width: 97%;
+               // margin-left: 4%;
+            }
+           
+            li.half{
+                width: 97%;
+                margin-left: 0%;
+            }
+            
+        }
+        
+    
+    }
+   
+}
+
+
