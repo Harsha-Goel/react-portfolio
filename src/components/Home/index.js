@@ -20,6 +20,7 @@ const Home = () => {
                 alt="JavaScript,  Developer"
             />
             </div>
+            <div>
                 <h1>
                 <span className={letterClass}>H</span>
                 <span className={`${letterClass} _12`}>i,</span>
@@ -36,9 +37,10 @@ const Home = () => {
                     idx={22}
                 />
                 </h1>
-                <h2> Full Stack Web Developer</h2>
+                <h2> FrontEnd Web Developer</h2>
                 
                 <Link to="/contact" className="flat-button">CONTACT ME</Link>
+            </div>
             </div>
             <Logo />
         </div>
