@@ -1,4 +1,4 @@
-import { Link ,NavLink} from "react-router-dom";
+import { Link} from "react-router-dom";
 //import LogoTitle from "../../assets/images/logoH.jpg"
 import "./index.scss"
 import { useState } from "react";
@@ -20,7 +20,7 @@ const Home = () => {
                 alt="JavaScript,  Developer"
             />
             </div>
-            <div>
+            <div className="long">
                 <h1>
                 <span className={letterClass}>H</span>
                 <span className={`${letterClass} _12`}>i,</span>
@@ -38,13 +38,14 @@ const Home = () => {
                 />
                 </h1>
                 <h2> FrontEnd Web Developer</h2>
-                {/* <NavLink exact="true" activeclassname="active" className="flat-button" to="/">
-                CONTACT ME
-                </NavLink> */}
+               
+
                 <Link to="/contact" className="flat-button">CONTACT ME</Link>
             </div>
             </div>
+            <div className="logo12">
             <Logo />
+            </div>
         </div>
     )
 }
