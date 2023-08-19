@@ -104,15 +104,31 @@
     .home-page{
         // overflow-x: 0;
         .text-zone{
-            position: absolute;
+          //  position: absolute;
             top: 40%;
             width: 80%;
             left: 20%;
             font-size: larger;
-        }}
-        .flat-button{
-            margin-left: 25%;
         }
+        .image-cnt{
+           
+            .logoo{
+                display: block;
+                height: 180px;
+                width: 180px;
+                border-radius: 50%;
+                border: 10px solid #DD58D6;
+                margin-left: 29%;
+                margin-top:28%;
+                margin-bottom: 10%;
+                
+            }
+            
+        }
+    }
+        // .flat-button{
+        //     margin-left: 25%;
+        // }
 
 }
 @media (max-width: 450px)  and (min-width: 374px){
